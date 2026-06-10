@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tres Piedras — Casa de Montaña · Potrerillos, Mendoza</title>
+<meta name="description" content="Dos casas de montaña equipadas para 6 personas en Las Vegas, Potrerillos. Un hogar en los Andes, abierto los 365 días del año. Reservá directo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- ░░ ICON SPRITE ░░ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 18V8m0 6h18m0 4v-6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2"/><path d="M6 9.5V8a2 2 0 0 1 2-2h0"/><path d="M5 18v2M21 18v2"/></symbol>
+  <symbol id="i-bath" viewBox="0 0 24 24"><path d="M4 12h16v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4v-3z"/><path d="M6 12V6a2 2 0 0 1 2-2 2 2 0 0 1 2 2"/><path d="M9 6h1.5M6 19l-1 2M18 19l1 2"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 20a5.5 5.5 0 0 1 11 0"/><path d="M16 5.5a3 3 0 0 1 0 5.5M17 20a5 5 0 0 0-3-4.6"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 3c1 3-2 4-2 7a2 2 0 0 0 4 0c0-1 0-1.5-.5-2.5C16 10 18 13 18 15a6 6 0 0 1-12 0c0-4 4-6 6-12z"/></symbol>
+  <symbol id="i-wifi" viewBox="0 0 24 24"><path d="M5 12.5a10 10 0 0 1 14 0"/><path d="M8 15.5a6 6 0 0 1 8 0"/><circle cx="12" cy="19" r="1"/></symbol>
+  <symbol id="i-kitchen" viewBox="0 0 24 24"><path d="M5 9h14l-1 11H6L5 9z"/><path d="M5 9a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3"/><path d="M12 3v3"/></symbol>
+  <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 3 6 11h3l-4 6h14l-4-6h3L12 3z"/><path d="M12 17v4"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 16v2M19 16v2M4 13l1.5-5A2 2 0 0 1 7.4 6.5h9.2A2 2 0 0 1 18.5 8L20 13"/><path d="M3 13h18v3H3z"/><circle cx="7" cy="16" r="1"/><circle cx="17" cy="16" r="1"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12.5 9 17.5 20 6.5"/></symbol>
+  <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-paw" viewBox="0 0 24 24"><ellipse cx="6.5" cy="11" rx="1.6" ry="2.2"/><ellipse cx="17.5" cy="11" rx="1.6" ry="2.2"/><ellipse cx="9.5" cy="7.5" rx="1.5" ry="2"/><ellipse cx="14.5" cy="7.5" rx="1.5" ry="2"/><path d="M12 13c-3 0-5 2-5 4.5C7 19.5 9 20 12 20s5-.5 5-2.5C17 15 15 13 12 13z"/></symbol>
+  <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M4 7a2 2 0 0 1 2-2h12v3"/><path d="M4 7v10a2 2 0 0 0 2 2h13a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1H6"/><circle cx="16.5" cy="13" r="1"/></symbol>
+  <symbol id="i-receipt" viewBox="0 0 24 24"><path d="M6 3h12v18l-2-1.5L14 21l-2-1.5L10 21l-2-1.5L6 21V3z"/><path d="M9 8h6M9 12h6"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 11 12 4l8 7"/><path d="M6 10v9h12v-9"/><path d="M10 19v-5h4v5"/></symbol>
+  <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="8" r="4"/><path d="M11 11l8 8M16 16l2-2M19 19l1.5-1.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l1.5 4-2 1.5a11 11 0 0 0 5 5l1.5-2 4 1.5v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+  <symbol id="i-signal" viewBox="0 0 24 24"><path d="M5 18v-3M10 18v-7M15 18v-11M20 18V4"/></symbol>
+  <symbol id="i-mountain" viewBox="0 0 24 24"><path d="M3 19 10 7l4 6 2-3 5 9H3z"/><path d="M9 9l1-2"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><path d="M4 5h2l2 11h10l2-8H7"/><circle cx="9" cy="19" r="1"/><circle cx="17" cy="19" r="1"/></symbol>
+  <symbol id="i-fuel" viewBox="0 0 24 24"><path d="M5 20V5a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v15"/><path d="M4 20h11"/><path d="M7 9h5"/><path d="M14 8l3 3v6a2 2 0 0 0 2-2V9.5L16 7"/></symbol>
+  <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19C4 12 8 5 19 5c1 9-4 14-12 14-2 0-2 0-2 0z"/><path d="M5 19c3-4 6-7 11-9"/></symbol>
+  <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20M3 7l18 10M21 7 3 17"/><path d="M9 4l3 2 3-2M9 20l3-2 3 2M4 9.5l.5 3.5L2 14M22 14l-2.5-1 .5-3.5M2 10l2.5 1L4 14.5M20 9.5 19.5 13 22 10"/></symbol>
+  <symbol id="i-flower" viewBox="0 0 24 24"><circle cx="12" cy="9" r="2.2"/><path d="M12 7c0-2.5-3-3-3-1 0 1.5 1.5 2 3 1zM12 7c0-2.5 3-3 3-1 0 1.5-1.5 2-3 1zM10.2 9.7C8 8.5 6 10.5 7.5 11.5c1.2.8 2.5-.3 2.7-1.8zM13.8 9.7C16 8.5 18 10.5 16.5 11.5c-1.2.8-2.5-.3-2.7-1.8z"/><path d="M12 11v10M12 21c-2 0-4-1.5-4-3M12 17c2 0 3.5-1.2 3.5-2.8"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></symbol>
+  <symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M15 18 9 12l6-6"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></symbol>
+  <symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+  <symbol id="i-expand" viewBox="0 0 24 24"><path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5"/></symbol>
+  <symbol id="i-water" viewBox="0 0 24 24"><path d="M3 14c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0"/><path d="M3 18c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0"/><path d="M12 4c2 2.5 3 4 3 5.5A3 3 0 0 1 9 9.5C9 8 10 6.5 12 4z"/></symbol>
+  <symbol id="i-horse" viewBox="0 0 24 24"><path d="M5 20c-1-5 1-8 4-9 1-2 3-3 5-3l1-2 1 2c2 1 3 3 2 5l-2 2c0 3-1 5-3 6"/><path d="M5 20h8M9 12l-3 1"/></symbol>
+  <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M7 3v8M5 3v5a2 2 0 0 0 4 0V3M7 11v10"/><path d="M16 3c-1.5 0-2.5 2-2.5 5S15 13 16 13v8"/></symbol>
+  <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 9h16M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h6a4 4 0 0 0 0-8H10a4 4 0 0 1 0-8h6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-wsp" viewBox="0 0 24 24"><path d="M3 21l1.6-5A8 8 0 1 1 8 19l-5 2z"/><path d="M9 9.5c.5 2 2.5 4 4.5 4.5l1-1.5 2 .8c0 1-.8 1.7-2 1.7-3 0-6-3-6-6 0-1.2.7-2 1.7-2l.8 2-1 .9z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-fish" viewBox="0 0 24 24"><path d="M3 12c3-5 9-6 14-3 2 1.5 4 3 4 3s-2 1.5-4 3c-5 3-11 2-14-3z"/><path d="M3 12c-1-1-1-3 0-4M3 12c-1 1-1 3 0 4"/><circle cx="16" cy="11" r=".6" fill="currentColor"/></symbol>
+</svg>
+
+<!-- ░░ NAV ░░ -->
+<nav id="nav">
+  <div class="nav-logo">
+    <div class="lg-name">Tres <span>Piedras</span></div>
+    <div class="lg-sub">Casa de Montaña</div>
+  </div>
+  <div class="nav-links" style="font-weight: 500">
+    <a href="#casas">Las Casas</a>
+    <a href="#galeria">Fotos</a>
+    <a href="#actividades">Actividades</a>
+    <a href="#reservas">Disponibilidad</a>
+    <a href="#reservas" class="nav-cta">Reservar</a>
+  </div>
+  <button class="nav-burger" onclick="toggleMenu()" aria-label="Menú"><svg class="ico"><use href="#i-menu"/></svg></button>
+</nav>
+
+<!-- mobile menu -->
+<div id="mobileMenu" style="display:none;position:fixed;inset:0;z-index:199;background:var(--forest);flex-direction:column;align-items:center;justify-content:center;gap:1.8rem;">
+  <button onclick="closeMenu()" style="position:absolute;top:1.4rem;right:1.6rem;background:none;border:none;color:var(--cream);font-size:1.6rem;cursor:pointer;"><svg class="ico"><use href="#i-x"/></svg></button>
+  <a onclick="scrollTo('#casas')" style="color:var(--cream);font-family:var(--serif);font-size:1.8rem;text-decoration:none;cursor:pointer;">Las Casas</a>
+  <a onclick="scrollTo('#galeria')" style="color:var(--cream);font-family:var(--serif);font-size:1.8rem;text-decoration:none;cursor:pointer;">Fotos</a>
+  <a onclick="scrollTo('#actividades')" style="color:var(--cream);font-family:var(--serif);font-size:1.8rem;text-decoration:none;cursor:pointer;">Actividades</a>
+  <a onclick="scrollTo('#reservas')" style="color:var(--cream);font-family:var(--serif);font-size:1.8rem;text-decoration:none;cursor:pointer;">Disponibilidad</a>
+  <a onclick="scrollTo('#reservas')" class="btn btn-gold" style="cursor:pointer;">Reservar ahora</a>
+</div>
+
+<!-- ░░ HERO ░░ -->
+<section class="hero" id="inicio">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1920&q=85&auto=format&fit=crop" alt="Cordillera de los Andes en Potrerillos, Mendoza">
+  <div class="hero-overlay"></div>
+  <div class="hero-body">
+    <p class="hero-eyebrow"><svg class="ico"><use href="#i-pin"/></svg> Las Vegas · Potrerillos · Mendoza</p>
+    <h1 class="hero-h1">Un <b>hogar</b><br>en la <em>montaña.</em></h1>
+    <p class="hero-sub">Dos casas equipadas para 6 personas, en el corazón de los Andes. No una cabaña de fin de semana — una casa de verdad, abierta los 365 días del año.</p>
+    <div class="hero-actions">
+      <a href="#reservas" class="btn btn-fill"><svg class="ico"><use href="#i-calendar"/></svg> Ver disponibilidad</a>
+      <a href="#casas" class="btn btn-ghost">Conocer las casas</a>
+    </div>
+  </div>
+  <a href="#bienvenida" class="hero-scroll" aria-label="Bajar"><svg class="ico"><use href="#i-arrow-down"/></svg></a>
+</section>
+
+<!-- ░░ SEARCH STRIP ░░ -->
+<div class="search-strip">
+  <div class="search-bar">
+    <div class="sb-field" onclick="scrollTo('#reservas')">
+      <div class="sb-label"><svg class="ico"><use href="#i-home"/></svg> Casa</div>
+      <div class="sb-value">Piedra o Río · 6 personas</div>
+    </div>
+    <div class="sb-field" onclick="scrollTo('#reservas')">
+      <div class="sb-label"><svg class="ico"><use href="#i-calendar"/></svg> Llegada → Salida</div>
+      <div class="sb-value">Elegí tus fechas</div>
+    </div>
+    <div class="sb-field" onclick="scrollTo('#reservas')">
+      <div class="sb-label"><svg class="ico"><use href="#i-leaf"/></svg> Temporada</div>
+      <div class="sb-value">Abierto todo el año</div>
+    </div>
+    <button class="sb-btn" onclick="scrollTo('#reservas')"><svg class="ico"><use href="#i-search"/></svg> Buscar</button>
+  </div>
+</div>
+
+<!-- ░░ INTRO ░░ -->
+<section class="intro" id="bienvenida">
+  <div class="intro-text reveal">
+    <p class="eyebrow">Para los que necesitan desconectar</p>
+    <h2>Conexión sobre<br>el <em>caos</em> cotidiano</h2>
+    <p>No es una cabaña de fin de semana. Es una casa de verdad en las montañas mendocinas — cocina equipada, hogar a leña, calefacción, camas cómodas y vistas que te hacen querer quedarte un día más.</p>
+    <p>Potrerillos cambia de cara con cada estación y siempre sorprende: el dique turquesa en verano, los álamos dorados en otoño, la nieve sobre los cerros en invierno.</p>
+    <div class="intro-stats">
+      <div class="istat"><b>2</b><span>Casas</span></div>
+      <div class="istat"><b>6</b><span>Personas c/u</span></div>
+      <div class="istat"><b>365</b><span>Días al año</span></div>
+      <div class="istat"><b>50'</b><span>De Mendoza</span></div>
+    </div>
+    <p class="note">— Un lugar para volver cada año.</p>
+    <a href="#casas" class="btn btn-fill">Ver las casas</a>
+  </div>
+  <div class="intro-collage reveal">
+    <div class="polaroid p1">
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&q=80&auto=format&fit=crop" alt="Dique Potrerillos">
+      <div class="pcap">El dique en verano</div>
+    </div>
+    <div class="polaroid p2">
+      <img src="https://images.unsplash.com/photo-1543807535-eceef0bc6599?w=440&q=80&auto=format&fit=crop" alt="Familia disfrutando">
+      <div class="pcap">Sobremesa</div>
+    </div>
+    <div class="polaroid p3">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=520&q=80&auto=format&fit=crop" alt="Interior cálido de la casa">
+      <div class="pcap">Living a leña</div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ CASAS ░░ -->
+<div class="casas-section" id="casas">
+  <div class="casas-intro reveal">
+    <p class="eyebrow">Dos hogares, una montaña</p>
+    <h2 class="sec-title">Elegí <em>tu casa</em></h2>
+  </div>
+
+  <!-- Casa 1 -->
+  <div class="casa-block">
+    <div class="casa-photo">
+      <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=1000&q=85&auto=format&fit=crop" alt="Casa Piedra exterior">
+      <span class="casa-tag">Vista al dique</span>
+    </div>
+    <div class="casa-info reveal">
+      <div class="casa-num">01</div>
+      <div class="casa-nombre">Casa Piedra</div>
+      <div class="casa-sub">Vista al dique · Quincho · Leña</div>
+      <div class="casa-features">
+        <span class="feat"><svg class="ico"><use href="#i-bed"/></svg> 3 habitaciones</span>
+        <span class="feat"><svg class="ico"><use href="#i-bath"/></svg> 2 baños</span>
+        <span class="feat"><svg class="ico"><use href="#i-users"/></svg> 6 personas</span>
+        <span class="feat"><svg class="ico"><use href="#i-flame"/></svg> Hogar a leña</span>
+        <span class="feat"><svg class="ico"><use href="#i-wifi"/></svg> WiFi</span>
+        <span class="feat"><svg class="ico"><use href="#i-kitchen"/></svg> Cocina equipada</span>
+      </div>
+      <p class="casa-p">Vista panorámica al dique con los Andes de fondo. Quincho para asados, calefacción central y una sala con hogar a leña que convierte cualquier noche en algo especial.</p>
+      <div class="casa-price-row">
+        <span class="c-price">$80.000</span>
+        <span class="c-price-note">/ noche · temporada baja</span>
+      </div>
+      <a href="#reservas" class="btn btn-fill">Reservar Casa Piedra</a>
+    </div>
+  </div>
+
+  <!-- Casa 2 -->
+  <div class="casa-block reverse">
+    <div class="casa-photo">
+      <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1000&q=85&auto=format&fit=crop" alt="Casa Río exterior">
+      <span class="casa-tag">Deck privado</span>
+    </div>
+    <div class="casa-info reveal">
+      <div class="casa-num">02</div>
+      <div class="casa-nombre">Casa Río</div>
+      <div class="casa-sub">Patio privado · Deck · Estufa</div>
+      <div class="casa-features">
+        <span class="feat"><svg class="ico"><use href="#i-bed"/></svg> 3 habitaciones</span>
+        <span class="feat"><svg class="ico"><use href="#i-bath"/></svg> 2 baños</span>
+        <span class="feat"><svg class="ico"><use href="#i-users"/></svg> 6 personas</span>
+        <span class="feat"><svg class="ico"><use href="#i-tree"/></svg> Deck exterior</span>
+        <span class="feat"><svg class="ico"><use href="#i-wifi"/></svg> WiFi</span>
+        <span class="feat"><svg class="ico"><use href="#i-car"/></svg> Estacionamiento</span>
+      </div>
+      <p class="casa-p">Orientada al valle del Río Mendoza, con deck privado para disfrutar la mañana. Ideal para grupos que quieren espacio propio, intimidad y toda la comodidad de un hogar.</p>
+      <div class="casa-price-row">
+        <span class="c-price">$80.000</span>
+        <span class="c-price-note">/ noche · temporada baja</span>
+      </div>
+      <a href="#reservas" class="btn btn-fill">Reservar Casa Río</a>
+    </div>
+  </div>
+</div>
+
+<!-- ░░ GALERÍA ░░ -->
+<div class="galeria-sec" id="galeria">
+  <div class="sec-header reveal">
+    <div>
+      <p class="eyebrow">Fotos</p>
+      <h2 class="sec-title">El interior, los <em>alrededores</em><br>y la gente que vuelve</h2>
+    </div>
+    <div class="gtabs">
+      <button class="gtab active" onclick="filterSlides('todas',this)">Todas</button>
+      <button class="gtab" onclick="filterSlides('interior',this)">Interior</button>
+      <button class="gtab" onclick="filterSlides('exterior',this)">Exterior</button>
+      <button class="gtab" onclick="filterSlides('gente',this)">Momentos</button>
+      <button class="gtab" onclick="filterSlides('entorno',this)">Entorno</button>
+    </div>
+  </div>
+  <div class="car-outer">
+    <button class="car-btn car-prev" id="carPrev" aria-label="Anterior"><svg class="ico"><use href="#i-arrow-left"/></svg></button>
+    <div class="car-track-clip" id="carClip"><div class="car-track" id="carTrack"></div></div>
+    <button class="car-btn car-next" id="carNext" aria-label="Siguiente"><svg class="ico"><use href="#i-arrow-right"/></svg></button>
+  </div>
+  <div class="car-dots" id="carDots"></div>
+</div>
+
+<!-- ░░ MOMENTOS ░░ -->
+<section class="momentos">
+  <img class="momentos-bg" src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=1600&q=80&auto=format&fit=crop" alt="Personas felices disfrutando la montaña">
+  <div class="momentos-overlay"></div>
+  <div class="momentos-body reveal">
+    <p class="eyebrow">Lo que se llevan</p>
+    <p class="momentos-quote">"Llegamos cansados de la ciudad y nos fuimos sintiendo que dejábamos nuestra casa."</p>
+    <p class="momentos-p">Asados que se estiran hasta la madrugada, mates mirando los cerros, chicos corriendo en el deck. Tres Piedras no se trata de las paredes — se trata de los momentos que pasan adentro.</p>
+  </div>
+</section>
+
+<!-- ░░ ESTACIONES ░░ -->
+<section class="estaciones-sec">
+  <p class="eyebrow reveal">Todo el año</p>
+  <h2 class="sec-title reveal">Potrerillos en cada <em>estación</em></h2>
+  <p class="est-lead reveal">Lo bueno de la montaña es que siempre hay una razón para volver. Cada temporada tiene su escapada.</p>
+  <div class="est-grid">
+    <div class="est-card reveal">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80&auto=format&fit=crop" alt="Otoño en Mendoza" loading="lazy">
+      <div class="est-overlay"></div>
+      <div class="est-content">
+        <div class="est-ic"><svg class="ico"><use href="#i-leaf"/></svg></div>
+        <div class="est-name">Otoño</div>
+        <div class="est-desc">Álamos dorados y viñedos encendidos. La luz de la tarde es única.</div>
+      </div>
+    </div>
+    <div class="est-card reveal">
+      <img src="https://images.unsplash.com/photo-1418985991508-e47386d96a71?w=600&q=80&auto=format&fit=crop" alt="Invierno con nieve en los Andes" loading="lazy">
+      <div class="est-overlay"></div>
+      <div class="est-content">
+        <div class="est-ic"><svg class="ico"><use href="#i-snow"/></svg></div>
+        <div class="est-name">Invierno</div>
+        <div class="est-desc">Nieve en los cerros, fuego adentro y chocolate caliente.</div>
+      </div>
+    </div>
+    <div class="est-card reveal">
+      <img src="https://images.unsplash.com/photo-1490750967868-88df5691cc59?w=600&q=80&auto=format&fit=crop" alt="Primavera con flores" loading="lazy">
+      <div class="est-overlay"></div>
+      <div class="est-content">
+        <div class="est-ic"><svg class="ico"><use href="#i-flower"/></svg></div>
+        <div class="est-name">Primavera</div>
+        <div class="est-desc">El río crece y todo florece. Temporada ideal de caminatas.</div>
+      </div>
+    </div>
+    <div class="est-card reveal">
+      <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80&auto=format&fit=crop" alt="Verano en la montaña" loading="lazy">
+      <div class="est-overlay"></div>
+      <div class="est-content">
+        <div class="est-ic"><svg class="ico"><use href="#i-sun"/></svg></div>
+        <div class="est-name">Verano</div>
+        <div class="est-desc">Fresco en la altura cuando la ciudad arde. Al río, sí o sí.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ ACTIVIDADES ░░ -->
+<section class="act-sec" id="actividades">
+  <div class="sec-header reveal" style="padding:0 0 0">
+    <div>
+      <p class="eyebrow">Qué hacer</p>
+      <h2 class="sec-title">Aventura a la vuelta<br>de la <em>casa</em></h2>
+    </div>
+  </div>
+  <div class="act-grid">
+    <div class="act-card reveal">
+      <div class="act-img"><img src="https://images.unsplash.com/photo-1530866495561-507c9faab2ed?w=600&q=80&auto=format&fit=crop" alt="Rafting en el Río Mendoza" loading="lazy"></div>
+      <div class="act-body">
+        <div class="act-tag"><svg class="ico"><use href="#i-water"/></svg> Agua</div>
+        <div class="act-name">Rafting · Río Mendoza</div>
+        <div class="act-desc">Descenso en aguas bravas con guías certificados. Para principiantes y aventureros.</div>
+        <div class="act-dist"><svg class="ico"><use href="#i-pin"/></svg> A 5 min de la casa</div>
+      </div>
+    </div>
+    <div class="act-card reveal">
+      <div class="act-img"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80&auto=format&fit=crop" alt="Kayak en el Dique Potrerillos" loading="lazy"></div>
+      <div class="act-body">
+        <div class="act-tag"><svg class="ico"><use href="#i-water"/></svg> Agua</div>
+        <div class="act-name">Kayak · Dique Potrerillos</div>
+        <div class="act-desc">Remá entre los Andes sobre el espejo de agua más hermoso de Mendoza.</div>
+        <div class="act-dist"><svg class="ico"><use href="#i-pin"/></svg> A 10 min de la casa</div>
+      </div>
+    </div>
+    <div class="act-card reveal">
+      <div class="act-img"><img src="https://images.unsplash.com/photo-1553531384-411a247ccd73?w=600&q=80&auto=format&fit=crop" alt="Cabalgatas en la montaña" loading="lazy"></div>
+      <div class="act-body">
+        <div class="act-tag"><svg class="ico"><use href="#i-horse"/></svg> Tierra</div>
+        <div class="act-name">Cabalgatas</div>
+        <div class="act-desc">Recorridos guiados a caballo por senderos y cañadones con vistas increíbles.</div>
+        <div class="act-dist"><svg class="ico"><use href="#i-pin"/></svg> A 15 min de la casa</div>
+      </div>
+    </div>
+    <div class="act-card reveal">
+      <div class="act-img"><img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80&auto=format&fit=crop" alt="Trekking y senderismo" loading="lazy"></div>
+      <div class="act-body">
+        <div class="act-tag"><svg class="ico"><use href="#i-route"/></svg> Tierra</div>
+        <div class="act-name">Trekking y senderismo</div>
+        <div class="act-desc">Senderos para todos los niveles, desde caminatas familiares hasta ascensos.</div>
+        <div class="act-dist"><svg class="ico"><use href="#i-pin"/></svg> Desde la puerta</div>
+      </div>
+    </div>
+    <div class="act-card reveal">
+      <div class="act-img"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&auto=format&fit=crop" alt="Restaurantes y cafeterías de la zona" loading="lazy"></div>
+      <div class="act-body">
+        <div class="act-tag"><svg class="ico"><use href="#i-utensils"/></svg> Gastronomía</div>
+        <div class="act-name">Cafeterías y restaurantes</div>
+        <div class="act-desc">Empanadas mendocinas, vinos de altura y cocina regional. Todo en el pueblo.</div>
+        <div class="act-dist"><svg class="ico"><use href="#i-pin"/></svg> En Potrerillos centro</div>
+      </div>
+    </div>
+    <div class="act-card reveal">
+      <div class="act-img"><img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600&q=80&auto=format&fit=crop" alt="Bajada al río y pesca" loading="lazy"></div>
+      <div class="act-body">
+        <div class="act-tag"><svg class="ico"><use href="#i-fish"/></svg> Relax</div>
+        <div class="act-name">Bajada al río y pesca</div>
+        <div class="act-desc">Tardes a la orilla del río, con los pies en el agua y los Andes alrededor.</div>
+        <div class="act-dist"><svg class="ico"><use href="#i-pin"/></svg> A 5 min caminando</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ DETALLES ░░ -->
+<section class="details-sec">
+  <div class="sec-header reveal" style="padding:0 0 0">
+    <div>
+      <p class="eyebrow">Lo que incluye</p>
+      <h2 class="sec-title">Está en los <em>detalles</em></h2>
+    </div>
+  </div>
+  <div class="details-grid">
+    <div class="detail-item reveal">
+      <div class="detail-icon"><svg class="ico"><use href="#i-home"/></svg></div>
+      <div class="detail-title">Una casa, no una cabaña</div>
+      <div class="detail-desc">Diseñada para que te instales, no para que aguantes el finde. Ropa de cama, vajilla y todo lo necesario para sentirte en casa.</div>
+    </div>
+    <div class="detail-item reveal">
+      <div class="detail-icon"><svg class="ico"><use href="#i-key"/></svg></div>
+      <div class="detail-title">Check-in sin vueltas</div>
+      <div class="detail-desc">Coordinamos la llegada por WhatsApp. Sin formularios ni burocracia. Todo listo cuando llegás.</div>
+    </div>
+    <div class="detail-item reveal">
+      <div class="detail-icon"><svg class="ico"><use href="#i-wifi"/></svg></div>
+      <div class="detail-title">Conectado y desconectado</div>
+      <div class="detail-desc">WiFi para trabajar o maratonear series. Y a dos pasos, el río, los cerros y el silencio de la montaña.</div>
+    </div>
+    <div class="detail-item reveal">
+      <div class="detail-icon"><svg class="ico"><use href="#i-flame"/></svg></div>
+      <div class="detail-title">Quincho y asados</div>
+      <div class="detail-desc">Parrilla lista, leña en invierno, deck en verano. El asado al aire libre con vista a los Andes es incomparable.</div>
+    </div>
+    <div class="detail-item reveal">
+      <div class="detail-icon"><svg class="ico"><use href="#i-wallet"/></svg></div>
+      <div class="detail-title">Pago flexible y directo</div>
+      <div class="detail-desc">30% de seña para confirmar, saldo al check-in. Transferencia bancaria, sin plataformas ni recargos.</div>
+    </div>
+    <div class="detail-item reveal">
+      <div class="detail-icon"><svg class="ico"><use href="#i-mountain"/></svg></div>
+      <div class="detail-title">365 días al año</div>
+      <div class="detail-desc">Las casas están preparadas para el frío del invierno y el calor del verano. Cualquier estación es buena.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ RESERVAS ░░ -->
+<section class="reservas-sec" id="reservas">
+  <div class="reveal">
+    <p class="eyebrow">Disponibilidad</p>
+    <h2 class="sec-title">Elegí tus fechas<br>y <em>reservá hoy</em></h2>
+    <p class="res-body">Confirmación directa por WhatsApp con los dueños. Sin intermediarios, sin comisiones ocultas.</p>
+    <div class="res-facts">
+      <div class="rfact"><svg class="ico"><use href="#i-clock"/></svg> Check-in flexible desde las 14 hs</div>
+      <div class="rfact"><svg class="ico"><use href="#i-sparkle"/></svg> Limpieza incluida al inicio de la estadía</div>
+      <div class="rfact"><svg class="ico"><use href="#i-flame"/></svg> Leña provista en temporada de frío</div>
+      <div class="rfact"><svg class="ico"><use href="#i-paw"/></svg> Mascotas: consultanos disponibilidad</div>
+      <div class="rfact"><svg class="ico"><use href="#i-wallet"/></svg> Seña del 30% para confirmar</div>
+      <div class="rfact"><svg class="ico"><use href="#i-receipt"/></svg> Saldo al momento del check-in</div>
+    </div>
+  </div>
+  <div class="booking-card reveal">
+    <h3>Verificá disponibilidad</h3>
+    <div class="form-row">
+      <div class="fgroup">
+        <label>Casa</label>
+        <select id="selCasa">
+          <option>Casa Piedra (01)</option>
+          <option>Casa Río (02)</option>
+        </select>
+      </div>
+      <div class="fgroup">
+        <label>Personas</label>
+        <select id="selPers">
+          <option>1–2 personas</option>
+          <option>3–4 personas</option>
+          <option selected>5–6 personas</option>
+        </select>
+      </div>
+      <div class="fgroup">
+        <label>Entrada</label>
+        <input type="date" id="fechaIn">
+      </div>
+      <div class="fgroup">
+        <label>Salida</label>
+        <input type="date" id="fechaOut">
+      </div>
+    </div>
+    <div class="cal-wrap">
+      <div class="cal-head">
+        <div class="cal-month" id="calMonth">Julio 2025</div>
+        <div class="cal-nav">
+          <button onclick="calStep(-1)" aria-label="Mes anterior"><svg class="ico"><use href="#i-arrow-left"/></svg></button>
+          <button onclick="calStep(1)" aria-label="Mes siguiente"><svg class="ico"><use href="#i-arrow-right"/></svg></button>
+        </div>
+      </div>
+      <div class="legend">
+        <div class="litem"><div class="ldot" style="background:rgba(45,74,53,.12)"></div>Libre</div>
+        <div class="litem"><div class="ldot" style="background:#f3e2dc"></div>Ocupado</div>
+        <div class="litem"><div class="ldot" style="background:var(--forest)"></div>Tu estadía</div>
+      </div>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+    <div class="price-sum">
+      <div class="pline"><span id="pNights">$80.000 × 0 noches</span><span id="pBase">$0</span></div>
+      <div class="pline"><span>Limpieza</span><span id="pClean">$15.000</span></div>
+      <div class="ptotal"><span>Total estimado</span><span id="pTotal">$0</span></div>
+    </div>
+    <button class="btn-reservar" onclick="reservarWsp()"><svg class="ico"><use href="#i-wsp"/></svg> Reservar por WhatsApp</button>
+  </div>
+</section>
+
+<!-- ░░ UBICACIÓN ░░ -->
+<div class="ubic-sec" id="ubicacion">
+  <div class="map-side">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13328.26!2d-69.189!3d-32.964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e1ab9b2d2b2b3%3A0x0!2sPotrerillos%2C+Mendoza!5e0!3m2!1ses!2sar!4v1620000000000" allowfullscreen loading="lazy" title="Ubicación en Potrerillos, Mendoza"></iframe>
+  </div>
+  <div class="ubic-info reveal">
+    <p class="eyebrow">Cómo llegar</p>
+    <h2 class="sec-title">Las Vegas<br>Potrerillos</h2>
+    <p class="ubic-body">A 60 km de la Ciudad de Mendoza por la Ruta 7. En auto, menos de 50 minutos con paisaje de los Andes todo el camino.</p>
+    <div class="ubic-facts">
+      <div class="ubfact"><svg class="ico"><use href="#i-car"/></svg> 50 min desde Mendoza por Ruta 7</div>
+      <div class="ubfact"><svg class="ico"><use href="#i-mountain"/></svg> 1.350 msnm · Valle del Río Mendoza</div>
+      <div class="ubfact"><svg class="ico"><use href="#i-cart"/></svg> Supermercado a 10 min en Potrerillos</div>
+      <div class="ubfact"><svg class="ico"><use href="#i-signal"/></svg> Señal de celular disponible</div>
+      <div class="ubfact"><svg class="ico"><use href="#i-fuel"/></svg> Estación de servicio en el pueblo</div>
+    </div>
+  </div>
+</div>
+
+<!-- ░░ REVIEWS ░░ -->
+<section class="reviews-sec">
+  <div class="reviews-head reveal">
+    <p class="eyebrow">Opiniones</p>
+    <h2 class="sec-title">Lo que dicen quienes ya <em>vinieron</em></h2>
+  </div>
+  <div class="reviews-grid">
+    <div class="rev-card reveal">
+      <div class="rev-stars">★★★★★</div>
+      <p class="rev-quote">"Llegamos en invierno y fue mágico. Ver nieve desde el quincho con un vino en la mano no se puede describir. La casa tiene absolutamente todo."</p>
+      <div class="rev-author">
+        <img class="rev-av" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80&auto=format&fit=crop" alt="Valentina">
+        <div><div class="rev-name">Valentina R.</div><div class="rev-loc">Buenos Aires · Invierno 2024</div></div>
+      </div>
+    </div>
+    <div class="rev-card reveal">
+      <div class="rev-stars">★★★★★</div>
+      <p class="rev-quote">"Fuimos 5 amigos a hacer rafting. La casa quedó perfecta: grande, cómoda, con todo. Ya estamos planeando volver en otoño para ver los colores."</p>
+      <div class="rev-author">
+        <img class="rev-av" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80&auto=format&fit=crop" alt="Martín">
+        <div><div class="rev-name">Martín S.</div><div class="rev-loc">Mendoza · Verano 2024</div></div>
+      </div>
+    </div>
+    <div class="rev-card reveal">
+      <div class="rev-stars">★★★★★</div>
+      <p class="rev-quote">"La casa supera las fotos. Es literalmente un hogar, no una cabaña. Volvimos con los chicos y fue la mejor decisión. Los dueños responden al toque."</p>
+      <div class="rev-author">
+        <img class="rev-av" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80&auto=format&fit=crop" alt="Carolina">
+        <div><div class="rev-name">Carolina M.</div><div class="rev-loc">Córdoba · Primavera 2024</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ CTA ░░ -->
+<section class="cta-sec">
+  <img class="cta-bg" src="https://images.unsplash.com/photo-1454942901704-3c44c11b2ad1?w=1800&q=80&auto=format&fit=crop" alt="Atardecer en los Andes" loading="lazy">
+  <div class="cta-overlay"></div>
+  <div class="cta-body reveal">
+    <p class="eyebrow">¿Cuándo es tu próxima escapada?</p>
+    <h2 class="cta-h2">Las <b>piedras</b><br>te <em>esperan.</em></h2>
+    <p class="cta-p">En cualquier estación, siempre hay una razón para volver a la montaña. Reservá hoy y asegurate las fechas.</p>
+    <div class="cta-actions">
+      <a href="#reservas" class="btn btn-cream">Ver disponibilidad</a>
+      <a onclick="wspGeneral()" class="btn btn-line-light" style="cursor:pointer"><svg class="ico"><use href="#i-wsp"/></svg> Escribinos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ░░ FOOTER ░░ -->
+<footer>
+  <div class="foot-top">
+    <div class="foot-brand">
+      <div class="fb-name">Tres <span>Piedras</span></div>
+      <div class="fb-sub">Casa de Montaña</div>
+      <p>Dos casas para vivir la montaña como en casa. Las Vegas, Potrerillos — a 50 minutos de la Ciudad de Mendoza, abiertas todo el año.</p>
+    </div>
+    <div class="foot-col">
+      <h4>Navegá</h4>
+      <a href="#casas">Las Casas</a>
+      <a href="#galeria">Fotos</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#reservas">Disponibilidad</a>
+    </div>
+    <div class="foot-col">
+      <h4>Contacto</h4>
+      <a onclick="wspGeneral()" style="cursor:pointer"><svg class="ico"><use href="#i-wsp"/></svg> WhatsApp directo</a>
+      <span class="fitem"><svg class="ico"><use href="#i-pin"/></svg> Las Vegas, Potrerillos</span>
+      <span class="fitem"><svg class="ico"><use href="#i-mountain"/></svg> Mendoza, Argentina</span>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <small>© 2025 Tres Piedras · Casa de Montaña</small>
+    <small>Hecho en Mendoza, al pie de los Andes</small>
+  </div>
+</footer>
+
+<!-- ░░ LIGHTBOX ░░ -->
+<div class="lb" id="lb">
+  <div class="lb-img-w">
+    <button class="lb-x" onclick="closeLb()" aria-label="Cerrar"><svg class="ico"><use href="#i-x"/></svg></button>
+    <img id="lbImg" alt="">
+  </div>
+  <div class="lb-controls">
+    <button class="lb-nav" onclick="lbMove(-1)"><svg class="ico"><use href="#i-arrow-left"/></svg> Anterior</button>
+    <button class="lb-nav" onclick="lbMove(1)">Siguiente <svg class="ico"><use href="#i-arrow-right"/></svg></button>
+  </div>
+  <div class="lb-ct" id="lbCt"></div>
+</div>
+
+<!-- ░░ WHATSAPP FLOAT ░░ -->
+<a class="wfloat" onclick="wspGeneral()" style="cursor:pointer" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+</a>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
